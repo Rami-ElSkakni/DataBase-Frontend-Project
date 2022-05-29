@@ -1,0 +1,24 @@
+.card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: .25rem;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.card-header {
+    margin-bottom: .5rem;
+}
+
+.rating-c {
+    color: red;
+}

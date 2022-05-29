@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+}
+
+.a-begin {
+  text-decoration: none;
+}
+
+.a-begin:hover {
+  text-decoration: none;
+  color: white;
+}
+.nav {
+  height: 75px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.brand-name {
+  color: red;
+  font-size: 30px;
+}
+.list-style {
+  display: flex;
+  color: white;
+  list-style: none;
+}
+
+.list-style-list {
+  margin-left: 120px;
+}
+
+/* .search-bar {
+  place-content: "Search";
+} */
+
+/* Search Box Styling */
+
+#searchbox {
+  width: 20%;
+}
+
+#searchbox #input,#btn {
+  width: 50%;
+  border: 1px solid white;
+  /* border-right: 0px; */
+  font-size: 12px;
+  padding: 12px;
+  background: transparent;
+  color: white;
+}
+
+#searchbox #btn {
+  width: 25%;
+  background: #eee;
+  color: black;
+  /* float: right; */
+  border-left: 0px;
+}
+
+#searchbox #btn:hover{
+  opacity: .8;
+}
+
+#searchbox #input:hover{
+  opacity: .8;
+}
+
+/* End of styling */
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 5%;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 20%;
+  margin: 0 35% 0 40%;
+  margin-top: 20px;
+}
+
+.main-btn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 10px;
+  border-style: none;
+  color: red;
+  border-color: red;
+  border: 1px solid red;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.left-btn {
+  background-color: red;
+  color: white;
+}
+
+.image-container {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+/* TRYING NEW CARD */
+
+.big {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 87px;
+  height: 87px;
+  object-fit: contain;
+  border-radius: 50%;
+  flex: 0.5 0 21%;
+}
+
+
+.card{
+  padding:.1%;
+  margin:1px;
+  border-radius:8%;
+  width: 10px;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ }
+ .card-contents{
+   display: flex-column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .special {
+     height: 320px;
+     width: 220px;
+ }
+
+ .description {
+   font-size: 20px;
+   padding-left: 25px;
+   padding-bottom: 50px;
+ }
+
+ .rating-color {
+   color: red;
+ }
+ 
+/* END CARD TRYING */
+
+
+
+/* .card {
+  height: 300px;
+  width: 200px;
+  margin-left: 2px;
+} */
+
+
+.card-right {
+  margin-right: 2px;
+}
+
+.img1 {
+  /* background-image: url(image4.jpg); */
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.img2 {
+  /* background-image: url(12.jpg); */
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.img3 {
+  /* background-image: url(image3.jpg); */
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.img4 {
+  /* background-image: url(image4.jpg); */
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.fa-solid {
+  color: white;
+}
+
+.fetch {
+  display: flex;
+  justify-content: space-around;
+}
+
+.oneS {
+  color: red;
+  border: 1px solid black;
+}
+
+
